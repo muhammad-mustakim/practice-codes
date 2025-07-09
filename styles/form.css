@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+.container {
+  width: 400px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.search-section {
+  margin-bottom: 20px;
+}
+
+.search-section input[type="text"] {
+  width: 200px;
+  padding: 5px;
+}
+
+.search-section button {
+  padding: 5px 10px;
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+}
+
+.link-section {
+  margin: 15px 0;
+}
+
+.form-section input[type="text"],
+.form-section input[type="date"],
+.form-section textarea {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  
+}
+
+.form-section input[type="submit"] {
+  padding: 8px 15px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form-section input[type="submit"]:hover {
+  background-color: #555;
+}
