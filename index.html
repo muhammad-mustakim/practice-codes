@@ -1,1 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Team Cards</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+      background-color: rgb(144, 108, 178);
+    }
+
+    section {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .team {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #ebb3c7;
+      padding: 20px;
+      width: 250px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .card img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      margin: 10px 0 5px;
+    }
+
+    .card h4 {
+      margin: 5px 0;
+      color: #3636e9;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #020202;
+    }
+  </style>
+</head>
+
+<body>
+
+  <section>
+    <h2>Meet Our Team</h2>
+  </section>
+
+  <div class="team">
+    <div class="card">
+      <img src="Images/Mustakim.jpg" alt="Profile">
+      <h3>Muhammad Mustakim</h3>
+      <h4>Frontend Developer</h4>
+      <p>Alex is passionate about creating beautiful user interfaces and improving user experiences.</p>
+    </div>
+    <div class="card">
+      <img src="Images/Smith_Maria.jpg">
+      <h3>Maria Smith</h3>
+      <h4>Backend Developer</h4>
+      <p>Maria specializes in server-side development and building secure, scalable systems.</p>
+    </div>
+    <div class="card">
+      <img src="Images/john.jpg">
+      <h3>John Doe</h3>
+      <h4>UI/UX Designer</h4>
+      <p>John creates intuitive designs that prioritize user satisfaction and engagement.</p>
+    </div>
+  </div>
+
+</body>
+
+</html>
